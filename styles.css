@@ -1,0 +1,12 @@
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:linear-gradient(135deg,#040816,#07132d);color:#fff}
+header{position:sticky;top:0;display:flex;justify-content:space-between;align-items:center;padding:18px 7%;background:rgba(5,10,25,.75);backdrop-filter:blur(10px)}
+.logo{height:58px}nav a{color:#fff;text-decoration:none;margin-left:20px}
+.hero{min-height:88vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:40px;background:
+radial-gradient(circle at top,#1a56ff33,transparent 40%),linear-gradient(135deg,#050916,#07132d)}
+.hero h1{font-size:64px;margin:0}.hero p{max-width:720px;margin:20px auto;color:#c7d4f7;font-size:20px}
+.btn{display:inline-block;margin-top:24px;padding:14px 28px;border-radius:10px;background:linear-gradient(90deg,#15c6ff,#2f63ff);color:#fff;text-decoration:none;font-weight:bold}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;padding:70px 7%}
+.card{background:#0d1734;padding:24px;border-radius:14px;border:1px solid #234}
+footer{text-align:center;padding:30px;border-top:1px solid #223;color:#9fb1da}
+.page{max-width:950px;margin:40px auto;padding:20px;line-height:1.8}
+h2{color:#6db8ff}
